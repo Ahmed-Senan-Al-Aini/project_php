@@ -1,0 +1,68 @@
+/* start main rulse*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #eee;
+}
+
+/*end main*/
+
+
+/* start framework */
+.center-postion {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.center-margin {
+    margin: 100px auto;
+    padding: 10px;
+}
+
+.center-flex {
+    display: flex;
+    place-items: center;
+}
+
+/* end framework */
+
+/* start container */
+
+.container {
+    height: 100%;
+    border-radius: 15px;
+    padding: 2px;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    padding: 20px;
+}
+
+/* end container */
+
+/* start login */
+
+.login {
+    width: 300px;
+    margin: 80px auto;
+}
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+.login .btn {
+    background-clip: #008dde;
+}
+
+/* end login*/
